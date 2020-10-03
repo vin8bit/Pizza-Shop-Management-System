@@ -60,19 +60,16 @@ public  class ViewPizza extends javax.swing.JPanel {
               editPizza = ed;
     }
     public ViewPizza() {
-        
         this.fillData();
-       jTable = new javax.swing.JTable();
-
+        jTable = new javax.swing.JTable();
         
         jScrollPane = new JScrollPane();
         jScrollPane.setViewportView(jTable);
         model = new DefaultTableModel(array,columns);
         jTable.setModel(model);
-       jTable.setSelectionBackground(new java.awt.Color(159, 25, 25));
+        jTable.setSelectionBackground(new java.awt.Color(159, 25, 25));
         rsorter = new TableRowSorter<TableModel>(model);
-		
-		jTable.setRowSorter(rsorter);
+	jTable.setRowSorter(rsorter);
        
 			
         initComponents();
