@@ -75,7 +75,7 @@ public class Admin extends javax.swing.JFrame {
         setTitle("Pizza Management System");
         setIconImage(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8_Naan_48px.png")).getImage());
 
-        jPanel1.setBackground(new java.awt.Color(159, 25, 25));
+        jPanel1.setBackground(new java.awt.Color(159, 25, 26));
 
         jPanel2.setBackground(new java.awt.Color(159, 25, 25));
 
