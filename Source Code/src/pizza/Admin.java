@@ -260,7 +260,7 @@ public class Admin extends javax.swing.JFrame {
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Logout");
+        jLabel6.setText("Logout Done");
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8_Logout_Rounded_Up_30px.png"))); // NOI18N
 
