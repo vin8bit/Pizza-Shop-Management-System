@@ -24,7 +24,7 @@ public class AddPizza extends javax.swing.JPanel {
     String s1,s2,s3,s4,s5,s6;
     javax.swing.JTextField ltf5 = new javax.swing.JTextField();
     String username = "root";
-    String password = "charu@123";
+    String password = "charu@1234";
     Connection conn;
     Statement stm2;
     PreparedStatement stm;
