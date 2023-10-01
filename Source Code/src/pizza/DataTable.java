@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
         
 public class DataTable {
         String username="root";
-	String password="";
+	String password="1234";
 	PreparedStatement stm;
 	PreparedStatement preparedStmt;
     
