@@ -81,6 +81,7 @@
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Feedback :"/>
+        <Property name="toolTipText" type="java.lang.String" value="Please provide your feedback"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -93,7 +94,8 @@
         <Component class="javax.swing.JTextArea" name="ltf2">
           <Properties>
             <Property name="columns" type="int" value="20"/>
-            <Property name="rows" type="int" value="5"/>
+            <Property name="rows" type="5"/>
+            <Property name="toolTipText" type="java.lang.String" value="Enter your feedback here"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -104,6 +106,7 @@
           <Color blue="19" green="19" red="9f" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Send"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to submit your feedback"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -115,11 +118,13 @@
           <Font name="Tahoma" size="10" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Member id :"/>
+        <Property name="toolTipText" type="java.lang.String" value="Enter your member ID"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="ltf1">
       <Properties>
-        <Property name="editable" type="boolean" value="false"/>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="toolTipText" type="java.lang.String" value="Enter your member ID here"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
