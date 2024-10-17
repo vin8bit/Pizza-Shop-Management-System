@@ -3,7 +3,7 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="cc" green="ff" red="cc" type="rgb"/>
+      <Color blue="204" green="255" red="204" type="rgb"/>
     </Property>
   </Properties>
   <AuxValues>
@@ -21,37 +21,37 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Component id="jLabel4" min="-2" pref="260" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel5" min="-2" pref="260" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel6" min="-2" pref="260" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" attributes="0">
-              <Component id="jLabel3" min="-2" pref="260" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel2" min="-2" pref="260" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="260" max="-2" attributes="0"/>
-          </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <Component id="jLabel4" min="-2" pref="260" max="-2" attributes="0"/>
+          <EmptySpace max="-2" attributes="0"/>
+          <Component id="jLabel5" min="-2" pref="260" max="-2" attributes="0"/>
+          <EmptySpace max="-2" attributes="0"/>
+          <Component id="jLabel6" min="-2" pref="260" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" attributes="0">
+          <Component id="jLabel3" min="-2" pref="260" max="-2" attributes="0"/>
+          <EmptySpace max="-2" attributes="0"/>
+          <Component id="jLabel2" min="-2" pref="260" max="-2" attributes="0"/>
+          <EmptySpace max="-2" attributes="0"/>
+          <Component id="jLabel1" min="-2" pref="260" max="-2" attributes="0"/>
+        </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel3" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
-                  <Component id="jLabel1" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel4" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
-                  <Component id="jLabel5" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
-                  <Component id="jLabel6" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
-              </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="jLabel3" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
+            <Component id="jLabel2" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
+            <Component id="jLabel1" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
           </Group>
+          <EmptySpace max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="jLabel4" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
+            <Component id="jLabel5" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
+            <Component id="jLabel6" alignment="3" min="-2" pref="249" max="-2" attributes="0"/>
+          </Group>
+        </Group>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -61,48 +61,72 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icons/anigif.gif"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Label 1"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to see details"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icons/anigif.gif"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Label 2"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to see details"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icons/anigif.gif"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Label 3"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to see details"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icons/anigif.gif"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Label 4"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to see details"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel4MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icons/anigif.gif"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Label 5"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to see details"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel5MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/icons/anigif.gif"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
+        <Property name="text" type="java.lang.String" value="Label 6"/>
+        <Property name="toolTipText" type="java.lang.String" value="Click to see details"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel6MouseClicked"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
